@@ -7,7 +7,7 @@ MAIN
 
     LET item_id = 'ITEM001'
     LET item_name = 'Widget'
-    LET item_description = 'A standard widget'
+    LET item_description = 'Sample widget'
 
     INSERT INTO item_master (item_id, item_name, item_description)
     VALUES (item_id, item_name, item_description)
