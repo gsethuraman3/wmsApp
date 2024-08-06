@@ -13,7 +13,7 @@ MAIN
     VALUES (item_id, quantity, movement_type, TODAY)
 
     IF sqlca.sqlcode = 0 THEN
-        DISPLAY "Stock movement recorded successfully"
+        DISPLAY "Stock movement recorded Successfully"
     ELSE
         DISPLAY "Error recording stock movement: ", sqlca.sqlerrm
     END IF

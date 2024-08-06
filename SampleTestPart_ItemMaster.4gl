@@ -13,7 +13,7 @@ MAIN
     VALUES (item_id, item_name, item_description)
 
     IF sqlca.sqlcode = 0 THEN
-        DISPLAY "Item inserted successfully"
+        DISPLAY "Item inserted Successfully"
     ELSE
         DISPLAY "Error inserting item: ", sqlca.sqlerrm
     END IF

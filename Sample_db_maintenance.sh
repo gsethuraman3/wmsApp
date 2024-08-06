@@ -1,5 +1,5 @@
 #!/bin/bash
-#Author - Gokulakrishnan Sethuraman
+#Author -  Gokulakrishnan Sethuraman
 # Define variables
 DATABASE_USER="Sample_your_db_user"
 DATABASE_PASS="Sample_your_db_pass"
